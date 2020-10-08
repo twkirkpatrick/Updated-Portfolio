@@ -1,0 +1,74 @@
+html{
+    height:100%
+}
+
+body{
+    height: 100vh;
+    background-image: url(images/port.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Khand', sans-serif;
+    
+}
+
+.header{
+    margin-top: 15rem;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+
+.img-col{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.divide{
+    
+    border-right: 6px double #212429;
+    
+}
+
+.divide-left{
+    border-left: 6px double #212429;
+}
+
+.info{
+    padding: 30px;
+}
+
+.about-img{
+    width: 150px;
+    padding-bottom: 10px;
+    border-radius: 8%;
+
+}
+
+.html{
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.contact-page{
+    display: none;
+    margin-top: 10rem;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portfolio, .about, .contact, .home{
+    transition: .2s ease-in;
+    margin: 5px;
+}
+
+ .portfolio:hover,
+ .about:hover,
+ .contact:hover,
+ .home:hover{
+    transform: scale(1.1);
+}
