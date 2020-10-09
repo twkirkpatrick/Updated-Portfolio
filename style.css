@@ -64,6 +64,7 @@ body{
 .portfolio, .about, .contact, .home{
     transition: .2s ease-in;
     margin: 5px;
+    background-color: #212429 !important; 
 }
 
  .portfolio:hover,
