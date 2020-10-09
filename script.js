@@ -48,6 +48,51 @@ $(document).ready(function(){
         $(".contact-page").fadeIn(1600);
    }
 
+   function populatePortfolio(){
+        $("body").hide().append(
+            "<div class='container'>" +
+                "<div class='row'>" +
+                    "<div class='col-sm-4'>" +
+                        "<div class='card'>" +
+                            "<img src='images/pitch.png' class='card-img-top' alt='picture of pitch application'>" +
+                            "<div class='card-body text-center'>" +
+                                "<h5 class='card-title'>Pitch</h5>" +
+                                /* "<p class='card-text'>An application that lets you save musical artists locally and presents a listening guide to help explore their music</p>" + */ 
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/deep-cuts' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://lucsedirae.github.io/deep-cuts' class='btn btn-dark port-btn'>Demo</a>" +
+                            "</div>" +
+                        "</div>" +
+                    "</div>" +
+                    "<div class='col-sm-4'>" +
+                        "<div class='card'>" +
+                            "<img src='images/clear-sky.png' class='card-img-top' alt='picture of weather application'>" +
+                            "<div class='card-body text-center'>" +
+                                "<h5 class='card-title'>Weather Dashboard</h5>" +
+                                /* "<p class='card-text'>A weather dashboard application that enables the user to retrieve the current weather as well as the 5-day forecast</p>" + */ 
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://twkirkpatrick.github.io/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Demo</a>" +
+                            "</div>" +
+                        "</div>" +
+                    "</div>" +
+                    "<div class='col-sm-4'>" +
+                        "<div class='card'>" +
+                            "<img src='images/myday.png' class='card-img-top' alt='picture of planner application'>" +
+                            "<div class='card-body text-center'>" +
+                                "<h5 class='card-title'>myDay Planner</h5>" +
+                                /* "<p class='card-text'>A simple daily planner application to get all your ducks in a row for the upcoming work day<br><br></p>" +  */
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://twkirkpatrick.github.io/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Demo</a>" +
+                            "</div>" +
+                        "</div>" +
+                    "</div>" +
+                "</div>" +
+            "</div>"
+        ).fadeIn(1600);
+    
+
+    }
+
+
    
     
 
@@ -69,10 +114,11 @@ $(document).ready(function(){
     })
 
     $(document).on("click", ".portfolio", function(){
+        $(".header").hide();
         populatePortfolio();
     })
 
-    var portfolioItems = [
+    /* var portfolioItems = [
 
         {
             name: 'Pitch',
@@ -116,12 +162,9 @@ $(document).ready(function(){
             demo: 'https://twkirkpatrick.github.io/Password-Generator'
         }
 
+    ] */
 
-
-
-
-
-    ]
+    
 
     
 
