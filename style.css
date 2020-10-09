@@ -49,9 +49,13 @@ body{
 
 .about-img{
     width: 150px;
-    padding-bottom: 10px;
-    border-radius: 8%;
+    border-radius: 10px;
+    border: 6px double black;
 
+}
+
+.card-style{
+    margin-top: 15px;
 }
 
 .html{
