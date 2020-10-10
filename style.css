@@ -30,7 +30,7 @@ body{
 
 .img-col{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .divide{
@@ -78,10 +78,19 @@ body{
     background-color: #212429 !important; 
 }
 
+.home-light, .about-light, .contact-light{
+    transition: .2s ease-in;
+    margin: 5px;
+    background-color: whitesmoke !important;
+}
+
  .portfolio:hover,
  .about:hover,
  .contact:hover,
- .home:hover{
+ .home:hover,
+ .home-light:hover,
+ .about-light:hover,
+ .contact-light:hover{
     transform: scale(1.1);
 }
 

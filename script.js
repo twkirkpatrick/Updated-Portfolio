@@ -36,7 +36,7 @@ $(document).ready(function(){
             "</div>" +
             "<div class='row'>" +
                 "<div class='col-sm-8 offset-sm-2 text-center about-page'>" +
-                    "<p class='info'>I am a Full Stack Software Developer based out of Richmond, VA.  When I am not adventuring outdoors, I am developing fully functional web-based applications across several platforms.   I enjoy tackling complex problems that require the utilization of new and evolving technologies in order to create intuitive user interfaces for my clients. My true passion lies in the implementation of appealing design, but I am more than capable of handling everything from the Front End to the Back End.</p>" +
+                    "<p class='info'>I am a Full Stack Software Developer based out of Richmond, VA.  When I am not adventuring outdoors, I am building fully functional web-based applications across several platforms.   I enjoy tackling complex problems that require the utilization of new and evolving technologies in order to create intuitive user interfaces for my clients. My true passion lies in the implementation of appealing design, but I am more than capable of handling everything from the Front End to the Back End.</p>" +
                     "<button type='button' class='btn btn-dark home'>Home</button>" +
                     "<button type='button' class='btn btn-dark portfolio'>View My Work</button>" +
                     "<button type='button' class='btn btn-dark contact'>Get In Touch</button>" +
@@ -56,7 +56,7 @@ $(document).ready(function(){
 
    function populatePortfolio(){
         $("body").hide().append(
-            "<div class='container'>" +
+            "<div class='container portfolio-page'>" +
                 "<div class='row'>" +
                     "<div class='col-sm-4 card-style'>" +
                         "<div class='card'>" +
@@ -114,6 +114,14 @@ $(document).ready(function(){
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/Password-Generator' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
                         "</div>" +
+                    "</div>" +  
+                "</div>" +
+                "<div class='row'>" +
+                    "<div class='col-sm-12 text-center'>" +
+                    "<button type='button' class='btn btn-dark home'>Home</button>" +
+                    "<button type='button' class='btn btn-dark about'>About Me</button>" +
+                    "<button type='button' class='btn btn-dark contact''>Get In Touch</button>" +
+                    "</div>" +
                 "</div>" +
             "</div>"
         ).fadeIn(1600);
@@ -128,16 +136,19 @@ $(document).ready(function(){
     $(document).on("click", ".contact", function(){
         $(".about-page").hide();
         $(".header").hide();
+        $(".portfolio-page").hide();
         populateContact();
     })
 
     $(document).on("click", ".home", function(){
         $(".about-page").hide();
+        $(".portfolio-page").hide();
         populateMain();
     })
 
     $(document).on("click", ".about", function(){
         $(".header").hide();
+        $(".portfolio-page").hide();
 
         populateAbout();
     })
