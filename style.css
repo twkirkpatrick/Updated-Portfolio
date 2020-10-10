@@ -27,10 +27,17 @@ body{
     margin: 5px;
 }
 
+ .hide{
+    display: none;
+} 
+.navbar-brand{
+    text-decoration: underline;
+}
+
 
 .img-col{
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 2.3rem;
 }
 
 .divide{

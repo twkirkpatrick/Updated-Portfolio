@@ -3,15 +3,16 @@ $(document).ready(function(){
     populateMain();
 
     function populateMain(){
-        $("body").hide().append(
-            "<div class = 'container'><div class='row'><div class='col-8 offset-2 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact'>Get In Touch</button></div></div></div>"
-        ).fadeIn(1600);
+        $(".navbar").addClass("hide");
+        $(".container").empty().hide().append(
+            "<div class='row'><div class='col-8 offset-2 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact'>Get In Touch</button></div></div>"
+        ).fadeIn(1400);
     }
 
    function populateAbout(){
-
-    $("body").hide().append(
-        "<div class='container'>" +
+    
+    $(".container").empty().hide().append(
+        
             "<div class='row'>" +
                 "<div class='col-sm-8 offset-sm-2 img-col about-page'>" + 
                 "<img src = 'images/twk.jpg' class='about-img'>" +
@@ -37,26 +38,25 @@ $(document).ready(function(){
             "<div class='row'>" +
                 "<div class='col-sm-8 offset-sm-2 text-center about-page'>" +
                     "<p class='info'>I am a Full Stack Software Developer based out of Richmond, VA.  When I am not adventuring outdoors, I am building fully functional web-based applications across several platforms.   I enjoy tackling complex problems that require the utilization of new and evolving technologies in order to create intuitive user interfaces for my clients. My true passion lies in the implementation of appealing design, but I am more than capable of handling everything from the Front End to the Back End.</p>" +
-                    "<button type='button' class='btn btn-dark home'>Home</button>" +
-                    "<button type='button' class='btn btn-dark portfolio'>View My Work</button>" +
-                    "<button type='button' class='btn btn-dark contact'>Get In Touch</button>" +
                 "</div>" +
-            "</div>" +
+            "</div>" 
              
-        "</div>"
+        
         
        
-    ).fadeIn(1600);
+    ).fadeIn(1400);
 
+    
+        $(".navbar").removeClass("hide");
    }
 
    function populateContact(){
-        $(".contact-page").fadeIn(1600);
+        $(".contact-page").fadeIn(1400);
    }
 
    function populatePortfolio(){
-        $("body").hide().append(
-            "<div class='container portfolio-page'>" +
+        $(".container").empty().hide().append(
+            
                 "<div class='row'>" +
                     "<div class='col-sm-4 card-style'>" +
                         "<div class='card'>" +
@@ -115,47 +115,53 @@ $(document).ready(function(){
                             "</div>" +
                         "</div>" +
                     "</div>" +  
-                "</div>" +
-                "<div class='row'>" +
+                "</div>" 
+                /* "<div class='row'>" +
                     "<div class='col-sm-12 text-center'>" +
                     "<button type='button' class='btn btn-dark home'>Home</button>" +
                     "<button type='button' class='btn btn-dark about'>About Me</button>" +
                     "<button type='button' class='btn btn-dark contact''>Get In Touch</button>" +
                     "</div>" +
-                "</div>" +
-            "</div>"
-        ).fadeIn(1600);
+                "</div>" + */
+            
+        ).fadeIn(1400);
     
 
     }
 
+    $(".nav-work").on("click", function(){
+        $(".about-page").hide();
+        $(".header").hide();
+        populatePortfolio();
+    })
 
+    $(".nav-about").on("click", function(){
+        $(".header").hide();
+        populateAbout();
+    })
+
+    $(".nav-home").on("click", function(){
+        $(".about-page").hide();
+        $(".header").hide();
+        $(".portfolio-page").hide();
+
+        populateMain();
+    })
    
     
 
     $(document).on("click", ".contact", function(){
-        $(".about-page").hide();
-        $(".header").hide();
-        $(".portfolio-page").hide();
+        $(".navbar").removeClass("hide").hide().fadeIn(1400);
         populateContact();
     })
 
-    $(document).on("click", ".home", function(){
-        $(".about-page").hide();
-        $(".portfolio-page").hide();
-        populateMain();
-    })
-
     $(document).on("click", ".about", function(){
-        $(".header").hide();
-        $(".portfolio-page").hide();
-
+        $(".navbar").removeClass("hide").hide().fadeIn(1400);
         populateAbout();
     })
 
     $(document).on("click", ".portfolio", function(){
-        $(".header").hide();
-        $(".about-page").hide();
+        $(".navbar").removeClass("hide").hide().fadeIn(1400);
         populatePortfolio();
     })
 
