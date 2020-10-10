@@ -14,7 +14,7 @@ $(document).ready(function(){
     $(".container").empty().hide().append(
         
             "<div class='row'>" +
-                "<div class='col-sm-8 offset-sm-2 img-col about-page'>" + 
+                "<div class='col-sm-8 offset-sm-2 img-col'>" + 
                 "<img src = 'images/twk.jpg' class='about-img'>" +
                     "<div class='row'>" +
                         "<div class='col divide-left'>" +
