@@ -21,7 +21,7 @@
           <div class="navbar-nav">
             <a class="nav-link nav-about" href="#">About Me <span class="sr-only">(current)</span></a>
             <a class="nav-link nav-work" href="#">View My Work</a>
-            <a class="nav-link nav-contact" href="#">Get In Touch</a>
+            <a class="nav-link nav-contact" data-toggle="modal" data-target="#exampleModal">Get In Touch</a>
           </div>
         </div>
       </nav>
@@ -29,6 +29,41 @@
       <div class="container">
 
       </div>
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">How Can I Help?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-group" action="form.php" method="post">
+            <label for="form_name">Name</label>
+            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Full name is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <label for="form_email">Email</label>
+            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <label for="form_message">Message</label>
+            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+          <button class="btn btn-dark btn" type="submit" name="submit">Send</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
 
     
 

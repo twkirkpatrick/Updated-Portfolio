@@ -5,7 +5,7 @@ $(document).ready(function(){
     function populateMain(){
         $(".navbar").addClass("hide");
         $(".container").empty().hide().append(
-            "<div class='row main-row'><div class='col-8 offset-2 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact'>Get In Touch</button></div></div>"
+            "<div class='row main-row'><div class='col-8 offset-2 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact' data-toggle='modal' data-target='#exampleModal'>Get In Touch</button></div></div>"
         ).fadeIn(1400);
     }
 
@@ -50,9 +50,7 @@ $(document).ready(function(){
         $(".navbar").removeClass("hide");
    }
 
-   function populateContact(){
-        $(".contact-page").fadeIn(1400);
-   }
+  
 
    function populatePortfolio(){
         $(".container").empty().hide().append(
@@ -152,10 +150,7 @@ $(document).ready(function(){
    
     
 
-    $(document).on("click", ".contact", function(){
-        $(".navbar").removeClass("hide").hide().fadeIn(1400);
-        populateContact();
-    })
+   
 
     $(document).on("click", ".about", function(){
         $(".navbar").removeClass("hide").hide().fadeIn(1400);
