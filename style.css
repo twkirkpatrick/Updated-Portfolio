@@ -63,9 +63,7 @@ body{
 
 }
 
-.blur{
-    
-}
+
 
 .card-style{
     margin-top: 15px;
@@ -77,9 +75,6 @@ body{
 
  .card-style:hover{
     transform:scale(1.1);
-    /* filter: blur(5px); */
-    
-     /* filter: blur(5px); */
     
 } 
 

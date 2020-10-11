@@ -120,24 +120,15 @@ $(document).ready(function(){
             
         ).fadeIn(1400);
 
-        const cards = $("div[id^='item']");
+        /* const cards = $("div[id^='item']"); */
+        const cards = $(".card-style");
 
-        $(cards).on("mouseenter", function(){
-            $(cards).not($(this)).css("filter", "blur(5px)")
+        cards.on("mouseenter", function(){
+            cards.not($(this)).css("filter", "blur(5px)");
         }).on("mouseleave", function(){
-            $(cards).css("filter", "blur(0px)");
-        })
-        /* .on("mouseenter", function(){
-            $(cards).not($(this)).css("filter", "blur(5px)");
- */
-        /* .on("mouseleave", function(){
-            $(cards).css("filter", "blur(5px)");
-        }) */
-
-       
-        
+            cards.css("filter", "blur(0px)");
+        });
     
-
     }
 
     $(".nav-work").on("click", function(){
