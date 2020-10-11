@@ -58,7 +58,7 @@ $(document).ready(function(){
         $(".container").empty().hide().append(
             
                 "<div class='row'>" +
-                    "<div class='col-sm-4 card-style'>" +
+                    "<div class='col-sm-4 card-style' id='item1'>" +
                         "<div class='card'>" +
                             "<img src='images/pitch2.png' class='card-img-top' alt='picture of pitch application'>" +
                             "<div class='card-body text-center'>" +
@@ -69,7 +69,7 @@ $(document).ready(function(){
                             "</div>" +
                         "</div>" +
                     "</div>" +
-                    "<div class='col-sm-4 card-style'>" +
+                    "<div class='col-sm-4 card-style' id='item2'>" +
                         "<div class='card'>" +
                             "<img src='images/clear-sky.png' class='card-img-top' alt='picture of weather application'>" +
                             "<div class='card-body text-center'>" +
@@ -80,7 +80,7 @@ $(document).ready(function(){
                             "</div>" +
                         "</div>" +
                     "</div>" +
-                    "<div class='col-sm-4 card-style'>" +
+                    "<div class='col-sm-4 card-style' id='item3'>" +
                         "<div class='card'>" +
                             "<img src='images/myday.png' class='card-img-top' alt='picture of planner application'>" +
                             "<div class='card-body text-center'>" +
@@ -93,7 +93,7 @@ $(document).ready(function(){
                     "</div>" +
                 "</div>" +
                 "<div class='row'>" +
-                    "<div class='col-sm-4 card-style'>" +
+                    "<div class='col-sm-4 card-style' id='item4'>" +
                         "<div class='card'>" +
                             "<img src='images/code-quiz.png' class='card-img-top' alt='picture of code quiz'>" +
                             "<div class='card-body text-center'>" +
@@ -104,7 +104,7 @@ $(document).ready(function(){
                             "</div>" +
                         "</div>" +
                     "</div>" +
-                    "<div class='col-sm-4 card-style'>" +
+                    "<div class='col-sm-4 card-style' id='item5'>" +
                         "<div class='card'>" +
                             "<img src='images/password-generator.png' class='card-img-top' alt='picture of password generator'>" +
                             "<div class='card-body text-center'>" +
@@ -116,15 +116,26 @@ $(document).ready(function(){
                         "</div>" +
                     "</div>" +  
                 "</div>" 
-                /* "<div class='row'>" +
-                    "<div class='col-sm-12 text-center'>" +
-                    "<button type='button' class='btn btn-dark home'>Home</button>" +
-                    "<button type='button' class='btn btn-dark about'>About Me</button>" +
-                    "<button type='button' class='btn btn-dark contact''>Get In Touch</button>" +
-                    "</div>" +
-                "</div>" + */
+            
             
         ).fadeIn(1400);
+
+        const cards = $("div[id^='item']");
+
+        $(cards).on("mouseenter", function(){
+            $(cards).not($(this)).css("filter", "blur(5px)")
+        }).on("mouseleave", function(){
+            $(cards).css("filter", "blur(0px)");
+        })
+        /* .on("mouseenter", function(){
+            $(cards).not($(this)).css("filter", "blur(5px)");
+ */
+        /* .on("mouseleave", function(){
+            $(cards).css("filter", "blur(5px)");
+        }) */
+
+       
+        
     
 
     }

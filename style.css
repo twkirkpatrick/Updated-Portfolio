@@ -10,6 +10,7 @@ body{
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Khand', sans-serif;
+    
 }
 
 .header{
@@ -58,13 +59,29 @@ body{
     width: 150px;
     border-radius: 10px;
     border: 6px double black;
+    
 
+}
+
+.blur{
+    
 }
 
 .card-style{
     margin-top: 15px;
+    transition: .2s ease-in-out;
     
 }
+
+
+
+ .card-style:hover{
+    transform:scale(1.1);
+    /* filter: blur(5px); */
+    
+     /* filter: blur(5px); */
+    
+} 
 
 .html{
     font-size: 4rem;
