@@ -23,12 +23,18 @@ body{
     font-size: 40px;
     margin-right: 1rem;
     transition: .2s ease-in;
-    color: rgb(65, 61, 61);
+    color: #23272B;
 }
 
-.modal-header{
-    justify-content: center !important;
-    align-items: center !important;
+.send-btn{
+    background-color: #23272B;
+    color: white;
+    transition: .2s ease-in;
+}
+
+.send-btn:hover{
+    transform: scale(1.1);
+    color: white !important;
 }
 
 .modal-icons:hover{
