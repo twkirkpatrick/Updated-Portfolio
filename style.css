@@ -15,8 +15,27 @@ body{
 }
 
 .header{
-    margin-top: 16rem;
+    margin-top: 17rem;
     
+}
+
+.modal-icons{
+    font-size: 40px;
+    margin-right: 1rem;
+    transition: .2s ease-in;
+    color: rgb(65, 61, 61);
+}
+
+.modal-header{
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.modal-icons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+    color: #212529;
 }
 
 .nav-contact{
