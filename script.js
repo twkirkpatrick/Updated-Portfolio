@@ -61,7 +61,7 @@ $(document).ready(function(){
                             "<img src='images/pitch2.png' class='card-img-top' alt='picture of pitch application'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>Pitch</h5>" +
-                                /* "<p class='card-text'>An application that lets you save musical artists locally and presents a listening guide to help explore their music</p>" + */ 
+                                "<p class='card-text'>An application that helps you navigate the world of music by displaying general information, tour dates, and YouTube videos for hundreds of musical artists. </p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/deep-cuts' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://lucsedirae.github.io/deep-cuts' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
@@ -72,7 +72,7 @@ $(document).ready(function(){
                             "<img src='images/clear-sky.png' class='card-img-top' alt='picture of weather application'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>Clear Sky Weather Dashboard</h5>" +
-                                /* "<p class='card-text'>A weather dashboard application that enables the user to retrieve the current weather as well as the 5-day forecast</p>" + */ 
+                                 "<p class='card-text'>A weather dashboard application that enables the user to retrieve the current weather and 5-day forecast for cities across the United States.</p>" +  
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/Clear-Sky-Weather-Dashboard' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
@@ -83,7 +83,7 @@ $(document).ready(function(){
                             "<img src='images/myday.png' class='card-img-top' alt='picture of planner application'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>myDay Planner</h5>" +
-                                /* "<p class='card-text'>A simple daily planner application to get all your ducks in a row for the upcoming work day<br><br></p>" +  */
+                                "<p class='card-text'>A simple daily planner application that helps you plan your upcoming work day by saving information to timeblocks.</p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/myDay' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/myDay' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
@@ -96,7 +96,7 @@ $(document).ready(function(){
                             "<img src='images/code-quiz.png' class='card-img-top' alt='picture of code quiz'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>JavaScript Code Quiz</h5>" +
-                                /* "<p class='card-text'>A simple daily planner application to get all your ducks in a row for the upcoming work day<br><br></p>" +  */
+                                "<p class='card-text'>A timed code quiz application that allows users to test their JavaScript skills and save their scores to local storage.</p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/Code-Quiz' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/Code-Quiz' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
@@ -107,7 +107,7 @@ $(document).ready(function(){
                             "<img src='images/password-generator.png' class='card-img-top' alt='picture of password generator'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>Password Generator</h5>" +
-                                /* "<p class='card-text'>A simple daily planner application to get all your ducks in a row for the upcoming work day<br><br></p>" +  */
+                                "<p class='card-text'>A password generator that creates a customized password based on several criteria chosen by the user.</p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/Password-Generator' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/Password-Generator' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
@@ -149,9 +149,6 @@ $(document).ready(function(){
     })
    
     
-
-   
-
     $(document).on("click", ".about", function(){
         $(".navbar").removeClass("hide").hide().fadeIn(1400);
         populateAbout();
