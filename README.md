@@ -1,2 +1,35 @@
-# Updated-Portfolio
-An updated Portfolio built with jQuery featuring completed projects/assignments
+# Updated Portfolio
+<a target="_blank" href="https://twkirkpatrick.github.io/">Deployed Portfolio</a>
+
+For this assignment, I chose to completely revamp my original portfolio.  To get more practice with jQuery, I dynamically created most of the HTML.  Some new features include a functioning contact modal, CSS and JavaScript animations, as well as a minimalist interface.  As always, I took a mobile-first approach, ensuring that my portfolio is functional, accessible, and appealing on all screen sizes.
+
+## Technologies
+**HTML5** <br>
+**CSS3** <br>
+**JavaScript** <br>
+**jQuery** <br>
+**Bootstrap**
+
+## Desktop
+
+<img src="images/main-page.png" alt="screenshot of portfolio">
+
+<img src="images/port-blur.png" alt="screenshot of portfolio">
+
+<img src="images/contact-modal.png" alt="screenshot of portfolio">
+
+## Mobile
+
+<img src="images/mobile-main.png" alt="screenshot of portfolio">
+
+<img src="images/mobile-port.png" alt="screenshot of portfolio">
+
+<img src="images/mobile-contact.png" alt="screenshot of portfolio">
+
+## Resources
+**Font Awesome** <br>
+**Google Fonts** <br>
+**Animate.CSS**
+
+
+
