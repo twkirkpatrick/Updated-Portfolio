@@ -5,7 +5,7 @@ $(document).ready(function(){
     function populateMain(){
         $(".navbar").addClass("hide");
         $(".container").empty().hide().append(
-            "<div class='row main-row animate__animated animate__fadeInDown animate__delay-1s'><div class='col-8 offset-2 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact' data-toggle='modal' data-target='#exampleModal'>Get In Touch</button></div></div>"
+            "<div class='row main-row animate__animated animate__fadeInDown animate__delay-1s'><div class='col-12 text-center header'><h1>Hi, I'm Tanner.</h1><h4>I have a passion for creating intuitive user interfaces across a number of new and evolving platforms.</h4><button type='button' class='btn btn-dark about'>About Me</button><button type='button' class='btn btn-dark portfolio'>View My Work</button><button type='button' class='btn btn-dark contact' data-toggle='modal' data-target='#exampleModal'>Get In Touch</button></div></div>"
         ).fadeIn(1400);
     }
 
