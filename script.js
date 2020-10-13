@@ -17,20 +17,12 @@ $(document).ready(function(){
                 "<div class='col-sm-8 offset-sm-2 img-col'>" + 
                 "<img src = 'images/twk.jpg' class='about-img'>" +
                     "<div class='row'>" +
-                        "<div class='col divide-left'>" +
-                        "<i class='fab fa-html5 html'></i>" +
-                        "</div>" +
-                        "<div class='col'>" +
+                        "<div class='col-sm-12'>" +
+                        "<i class='fab fa-html5 html left-icon divide-left'></i>" +
                         "<i class='fab fa-css3-alt html'></i>" +
-                        "</div>" +
-                        "<div class='col'>" +
                         "<i class='fab fa-js html'></i>" +
-                        "</div>" +
-                        "<div class='col'>" +
                         "<i class='fab fa-react html'></i>" +
-                        "</div>" +
-                        "<div class='col divide'>" +
-                        "<i class='fab fa-node-js html'></i>" +
+                        "<i class='fab fa-node-js html right-icon divide'></i>" +
                         "</div>" +
                     "</div>" +
                 "</div>" +
