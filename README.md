@@ -20,16 +20,20 @@ For this assignment, I chose to completely revamp my original portfolio.  To get
 
 ## Mobile
 
-<img src="images/main-mobile.jpg" alt="screenshot of portfolio">
+<img src="images/mobile1.png" alt="screenshot of portfolio">
 
-<img src="images/port-mobile.jpg" alt="screenshot of portfolio">
+<img src="images/mobile2.png" alt="screenshot of portfolio">
 
-<img src="images/contact-mobile.jpg" alt="screenshot of portfolio">
+<img src="images/mobile3.png" alt="screenshot of portfolio">
 
 ## Resources
 **Font Awesome** <br>
 **Google Fonts** <br>
 **Animate.CSS**
+
+### License & Copyright
+
+Copyright &copy; Tanner Kirkpatrick 2020
 
 
 
