@@ -22,7 +22,7 @@ For this assignment, I chose to completely revamp my original portfolio.  To get
 
 <img src="images/mobile5.png" alt="screenshot of portfolio">
 
-<img src="images/mobile2.png" alt="screenshot of portfolio">
+<img src="images/mobile8.png" alt="screenshot of portfolio">
 
 <img src="images/mobile3.png" alt="screenshot of portfolio">
 
