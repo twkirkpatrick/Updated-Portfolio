@@ -151,65 +151,6 @@ $(document).ready(function(){
         populatePortfolio();
     })
 
-    /* var portfolioItems = [
-
-        {
-            name: 'Pitch',
-            description: 'Pitch is an app that lets you save musical artists locally and presents a listening guide to help explore their music',
-            tools: ['HTML', 'CSS', 'Materialize', 'jQuery', 'Local Storage' ],
-            img: 'images/pitch.png',
-            code: 'https://github.com/twkirkpatrick/deep-cuts',
-            demo: 'https://lucsedirae.github.io/deep-cuts'
-            
-        },
-        {
-            name: 'Clear Sky Weather Dashboard',
-            description: 'A weather dashboard application utilizing jQuery and server-side APIs',
-            tools: ['HTML', 'CSS', 'Bootstrap', 'jQuery', 'Moment.js'],
-            img: 'images/clear-sky.png',
-            code: 'https://github.com/twkirkpatrick/Clear-Sky-Weather-Dashboard',
-            demo: 'https://twkirkpatrick.github.io/Clear-Sky-Weather-Dashboard'
-        },
-        {
-            name: 'myDay Work Planner',
-            description: 'A simple daily planner application to get all your ducks in a row for the upcoming work day.',
-            tools: ['HTML', 'CSS', 'Bootstrap', 'jQuery', 'Moment.js'],
-            img: 'images/myday.png',
-            code: 'https://github.com/twkirkpatrick/myDay',
-            demo: 'https://twkirkpatrick.github.io/myDay'
-        },
-        {
-            name: 'JavaScript Code Quiz',
-            description: 'A timed quiz application built with HTML, CSS, Bootstrap, and Vanilla JavaScript.',
-            tools: ['HTML', 'CSS', 'Bootstrap', 'Vanilla JavaScript'],
-            img: 'images/code-quiz.png',
-            code: 'https://github.com/twkirkpatrick/Code-Quiz',
-            demo: 'https://twkirkpatrick.github.io/Code-Quiz'
-        },
-        {
-            name: 'Password Generator',
-            description: 'A password generator application built with HTML, CSS, and Vanilla JavaScript.',
-            tools: ['HTML', 'CSS', 'Vanilla JavaScript'],
-            img: 'images/password-generator.png',
-            code: 'https://github.com/twkirkpatrick/Password-Generator',
-            demo: 'https://twkirkpatrick.github.io/Password-Generator'
-        }
-
-    ] */
-
     
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 })

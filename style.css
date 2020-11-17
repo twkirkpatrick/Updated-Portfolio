@@ -14,6 +14,10 @@ body{
     
 }
 
+.sample-change{
+    color: white;
+}
+
 .header{
     margin-top: 17rem;
     
@@ -87,8 +91,6 @@ body{
     width: 150px;
     border-radius: 10px;
     border: 6px double black;
-    
-
 }
 
 
@@ -96,14 +98,12 @@ body{
 .card-style{
     margin-top: 15px;
     transition: .2s ease-in-out;
-    
 }
 
 
 
  .card-style:hover{
     transform:scale(1.1);
-    
 } 
 
 .html{
@@ -158,9 +158,6 @@ body{
         font-size: .4rem;
     }
 
-    .img-col{
-
-    }
 }
 
 @media only screen and (max-width: 400px ){
