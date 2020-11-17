@@ -53,7 +53,7 @@ $(document).ready(function(){
                             "<img src='images/burger.png' class='card-img-top' alt='picture of burger application'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>BurgerBase</h5>" +
-                                "<p class='card-text'>An application used to log your favorite burgers. Submit new burgers and devour them! Built with Node.js, Express, MySQL, Handlebars, and ORM. </p>" + 
+                                "<p class='card-text'>An application used to log your favorite burgers. Submit new burgers and devour them! Built with Node.js, Express, MySQL, Handlebars, and a custom ORM. </p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/BurgerBase' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://warm-atoll-97032.herokuapp.com/' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
