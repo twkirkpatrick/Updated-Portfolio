@@ -50,12 +50,12 @@ $(document).ready(function(){
                 "<div class='row'>" +
                     "<div class='col-sm-4 card-style' id='item1'>" +
                         "<div class='card'>" +
-                            "<img src='images/pitch2.png' class='card-img-top' alt='picture of pitch application'>" +
+                            "<img src='images/burger.png' class='card-img-top' alt='picture of burger application'>" +
                             "<div class='card-body text-center'>" +
-                                "<h5 class='card-title'>Pitch</h5>" +
-                                "<p class='card-text'>An application that helps you navigate the world of music by displaying general information, tour dates, and YouTube videos for hundreds of musical artists. </p>" + 
-                                "<a target='_blank' href='https://github.com/twkirkpatrick/deep-cuts' class='btn btn-dark port-btn'>Code</a>" +
-                                "<a target='_blank' href='https://lucsedirae.github.io/deep-cuts' class='btn btn-dark port-btn'>Demo</a>" +
+                                "<h5 class='card-title'>BurgerBase</h5>" +
+                                "<p class='card-text'>An application used to log your favorite burgers. Submit new burgers and devour them! Built with Node.js, Express, MySQL, Handlebars, and ORM. </p>" + 
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/BurgerBase' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://warm-atoll-97032.herokuapp.com/' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
                         "</div>" +
                     "</div>" +
@@ -102,6 +102,17 @@ $(document).ready(function(){
                                 "<p class='card-text'>A password generator that creates a customized password based on several criteria chosen by the user.</p>" + 
                                 "<a target='_blank' href='https://github.com/twkirkpatrick/Password-Generator' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://twkirkpatrick.github.io/Password-Generator' class='btn btn-dark port-btn'>Demo</a>" +
+                            "</div>" +
+                        "</div>" +
+                    "</div>" +
+                    "<div class='col-sm-4 card-style' id='item1'>" +
+                        "<div class='card'>" +
+                            "<img src='images/pitch2.png' class='card-img-top' alt='picture of pitch application'>" +
+                            "<div class='card-body text-center'>" +
+                                "<h5 class='card-title'>Pitch</h5>" +
+                                "<p class='card-text'>An application that helps you navigate the world of music by displaying general information, tour dates, and YouTube videos for hundreds of musical artists. </p>" + 
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/deep-cuts' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://lucsedirae.github.io/deep-cuts' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
                         "</div>" +
                     "</div>" +  
