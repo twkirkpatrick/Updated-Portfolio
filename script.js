@@ -122,13 +122,13 @@ $(document).ready(function(){
         ).fadeIn(1400);
 
         /* const cards = $("div[id^='item']"); */
-        const cards = $(".card-style");
+        /* const cards = $(".card-style");
 
         cards.on("mouseenter", function(){
             cards.not($(this)).css("filter", "blur(5px)");
         }).on("mouseleave", function(){
             cards.css("filter", "blur(0px)");
-        });
+        }); */
     
     }
 

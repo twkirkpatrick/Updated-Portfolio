@@ -17,6 +17,14 @@ body{
     color: white;
 }
 
+.number{
+    font-size: 15px;
+}
+
+.phone{
+    font-size: 35px;
+}
+
 .header{
     margin-top: 17rem;
     
