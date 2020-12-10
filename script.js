@@ -136,7 +136,7 @@ $(document).ready(function(){
         $(".container").empty().hide().append(
             "<div class='row'>" +
                 "<div class='col-md-6 mx-auto mt-5 text-center'>" +
-                     "<p>One of the most important aspects of being a programmer is being able to explain the technicalities of your code. Here are a few articles I've written and posted to dev.to.</p>" +
+                     "<p>One of the most important aspects of being a programmer is the ability to explain the technicalities of your code. Here are a few articles I've written and posted to dev.to.</p>" +
                 "</div>" +
             "</div>" + 
             "<div class='row'>" +
