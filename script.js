@@ -61,11 +61,11 @@ $(document).ready(function(){
                     "</div>" +
                     "<div class='col-sm-4 card-style' id='item2'>" +
                         "<div class='card'>" +
-                            "<img src='images/media.png' class='card-img-top' alt='picture of weather application'>" +
+                            "<img src='images/media.png' class='card-img-top' alt='picture of GitWorkd logo'>" +
                             "<div class='card-body text-center'>" +
                                 "<h5 class='card-title'>GitWorkd</h5>" +
                                  "<p class='card-text'>A platform that promotes collaboration by allowing users to share and explore open source applications.  Built with Node, Express, Handlebars, MySQL, and GitHub OAuth.</p>" +  
-                                "<a target='_blank' href='https://github.com/eaclumpkens/gitWorkd' class='btn btn-dark port-btn'>Code</a>" +
+                                "<a target='_blank' href='https://github.com/twkirkpatrick/GitWorkd' class='btn btn-dark port-btn'>Code</a>" +
                                 "<a target='_blank' href='https://gitworkd.herokuapp.com/' class='btn btn-dark port-btn'>Demo</a>" +
                             "</div>" +
                         "</div>" +
